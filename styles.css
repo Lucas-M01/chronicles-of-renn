@@ -101,7 +101,8 @@ a:focus-visible {
   border-block-end: 1px solid var(--line);
 }
 
-.contents a {
+.contents a,
+.contents .pending-chapter {
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -113,8 +114,14 @@ a:focus-visible {
   background: var(--hover);
 }
 
-.contents a span {
+.contents a span,
+.contents .pending-chapter span,
+.pending-chapters {
   color: var(--muted);
+}
+
+.pending-chapters {
+  margin-block-start: 0.8rem;
 }
 
 .chapter {
@@ -161,4 +168,8 @@ a:focus-visible {
   margin-block-start: 2.5rem;
   border-block-start: 1px solid var(--line);
   padding-block-start: 1rem;
+}
+
+.page-footer p + p {
+  margin-block-start: 0.5rem;
 }
