@@ -4,9 +4,9 @@ O site usa HTML e CSS e pode ser aberto diretamente no navegador. A página inic
 
 ## Editar o conteúdo
 
-1. Em `index.html`, preencha os marcadores entre colchetes com o título da história, o nome ou pseudônimo do autor, a sinopse em inglês e os títulos no índice. Atualize também o elemento `<title>` da página.
-2. Em `chapter-1.html`, `chapter-2.html` e `chapter-3.html`, preencha os títulos e o crédito de autoria. Atualize o `<title>` da aba e o `<h1>` visível de cada capítulo.
-3. Em cada capítulo, substitua os parágrafos de exemplo pelo texto original em inglês. Use um `<p>...</p>` por parágrafo dentro de `<article>`. Ao colar texto, escreva `&amp;` para um `&` literal e `&lt;` para um `<` literal.
+1. Em `index.html`, edite a sinopse em inglês na seção `synopsis`.
+2. Para alterar o crédito de autoria, edite a linha `byline` na página inicial e nas três páginas de capítulo.
+3. Para revisar o texto original em inglês, edite o arquivo HTML do capítulo correspondente. Mantenha um `<p>...</p>` por parágrafo dentro de `<article>`. Ao colar texto, escreva `&amp;` para um `&` literal e `&lt;` para um `<` literal.
 4. Mantenha o aviso de autorização do VoxNovel no rodapé. Se precisar ajustar a aparência, edite `styles.css`, que é compartilhado pelas quatro páginas.
 5. Abra `index.html` no navegador e confira o índice e a navegação entre capítulos.
 
